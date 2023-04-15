@@ -1,1 +1,36 @@
+Question- Suppose you were given to build a web application for https://www.boats.com/ from scratch as a startup . Imagine you would be solely responsible to build it’s frontend, backend, design database, setup media storage, deployment, ci/cd automation and everything else. Thus, do some research on your part and write down your response to the following question 
+
+
+A.	Which backend framework would you prefer to use and why? 
+
+I would like to use Express.js framework for the backend. As it is a small framework that works on top of node.js web server which helps in simplify the API’s and help it to add new features . Its very easy to use, has great features and  easier to organise in the application . I feel its an good choice for the beginners like us to use it. 
+
+
+B. Which frontend framework would you prefer to use and why? 
+
+ I would like to use ReactJS for the frontend. 
+as its popular and I feel its the great option for the complex web application. It is easier to debug and predictable as it has declarative view of the code. 
+
+
+C. Which database would you prefer to use and why?
+
+ I would prefer MySQl (Structured Query Language). 	
+As it is an open source and user friendly it helps us to create a database and manipulate the data. For the given application I.e boats.com I feel its the best database that can be used. 
+As I have used MySQL in one of my DBMS project I prefer Its a best for storing the database.
+
+D.  What would you use for version control of the codebase ? 
+
+I would use Git as it is more popular and provides wide range of features for managing the codes and reviewing it and it has wide range of tools. 
+
+
+E. Which platform would you prefer for media storages ( eg. storage of product images) ? 
+
+ AWS s3 (simple storage service ) as it is secure , scalable and the durability is high. We can store and retrieve the data from anywhere on the web. Its easy to use and even its cost effective. 
+
+
+F. Where would you deploy your application and which web server would you use and why? 
+
+AWS Elastic Beanstalk is an AWS managed service for web applications. It sis easy to deploy and run. It also supports Node.js and React.js and gives an excellent performance.
+ For boats.com  I guess this is the best application For deploying it. 
+Ngnix is the best web server and it has high performance and provides excellent features. 
 

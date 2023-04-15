@@ -1,0 +1,36 @@
+Question: Consider the dataset on Question 2. 
+Now, A client has solicited your services to develop a machine-learning model that can forecast the approximate value of their customers' used cars. The objective is to provide accurate quotations to customers on the price to offer for the purchase of their used cars. You have been furnished with a dataset of used cars, and your task is to:
+
+1. conduct exploratory data analysis to identify crucial features that will be utilized in the model. 
+
+import numpy as np
+import pandas as pd
+
+import os
+for dirname, _, filenames in os.walk('/kaggle/input'):
+    for filename in filenames:
+        print(os.path.join(dirname, filename))
+df = pd.read_csv('autos.csv',encoding='Windows-1252')
+print(df.shape)
+print(df.columns)
+df.head()
+ 
+ 
+2. Please justify the selection of these features and aim to incorporate as many as possible.
+
+df.shape, df.columns, and df.head() when we use these functions we get to know the features we are working 
+df.nunique(axis=0) tells us the unique value present and also helps in identifying any unsual occruence  
+df.describe()
+
+df.describe().apply(lambda s: s.apply(lambda x: format(x, 'f')))
+Helps to get a quick overview of the data. For example I want to  see min and max values of the attributes with the help of describe function I can see that 
+
+
+3. kindly identify any potential challenges or limitations you anticipate/encounter during the feature selection process. (if any) 
+ 
+ If the data is Missing , redundant data, if there is a mixup or there is any confusion with respect to the variables these are the few challenges or limitations that can occur during the process 
+
+
+4. (Bonus) Try to propose a good model you feel would be able to best fit the features you have selected to make predictions. 
+ 
+Using regressions, random forest algorithms , regressions we can purpose a good model. 

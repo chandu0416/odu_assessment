@@ -3,7 +3,8 @@ Question- Suppose you were given to build a web application for https://www.boat
 
 A.Which backend framework would you prefer to use and why? 
 
-I would like to use Express.js framework for the backend. As it is a small framework that works on top of node.js web server which helps in simplify the API’s and help it to add new features . Its very easy to use, has great features and  easier to organise in the application . I feel its an good choice for the beginners like us to use it. 
+I would like to use Express.js framework for the backend.
+As it is a small framework that works on top of node.js web server which helps in simplify the API’s and help it to add new features . Its very easy to use, has great features and  easier to organise in the application . I feel its an good choice for the beginners like us to use it. 
 
 
 B. Which frontend framework would you prefer to use and why? 
@@ -30,7 +31,6 @@ E. Which platform would you prefer for media storages ( eg. storage of product i
 
 F. Where would you deploy your application and which web server would you use and why? 
 
-AWS Elastic Beanstalk is an AWS managed service for web applications. It sis easy to deploy and run. It also supports Node.js and React.js and gives an excellent performance.
- For boats.com  I guess this is the best application For deploying it. 
+AWS Elastic Beanstalk is an AWS managed service for web applications. It is easy to deploy and run. It also supports Node.js and React.js which can  give an excellent performance. For boats.com  I guess this is the best application For deploying it. 
 Ngnix is the best web server and it has high performance and provides excellent features. 
 

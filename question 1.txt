@@ -1,7 +1,7 @@
 Question- Suppose you were given to build a web application for https://www.boats.com/ from scratch as a startup . Imagine you would be solely responsible to build it’s frontend, backend, design database, setup media storage, deployment, ci/cd automation and everything else. Thus, do some research on your part and write down your response to the following question 
 
 
-A.	Which backend framework would you prefer to use and why? 
+A.Which backend framework would you prefer to use and why? 
 
 I would like to use Express.js framework for the backend. As it is a small framework that works on top of node.js web server which helps in simplify the API’s and help it to add new features . Its very easy to use, has great features and  easier to organise in the application . I feel its an good choice for the beginners like us to use it. 
 

@@ -13,8 +13,8 @@ pd.read_csv('autos.csv',encoding='Windows-1252')
 autos_df=pd.read_csv('autos.csv',encoding='Windows-1252')
 type(autos_df)
 
-#3.	Use the data frame to perform following: 
-#a. Find Average price of autos ( using price column of dataset) 
+#3.Use the data frame to perform following: 
+#a.Find Average price of autos ( using price column of dataset) 
 mean1=autos_df['price'].mean()
 mean1
 

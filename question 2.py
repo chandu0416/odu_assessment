@@ -2,8 +2,8 @@
 Here is a dataset for autos. 
 https://drive.google.com/file/d/1QP21K5tiJAjt5NA7W2FxSe9Wam9-tIcQ/view?usp=sharing 
 Flow: '''
-#1.	Download this dataset. 
-#2.	Write basic python script to load csv and read it as data frame 
+#1.Download this dataset. 
+#2.Write basic python script to load csv and read it as data frame 
 import chardet
 with open ('autos.csv','rb') as rawdata:
   result = chardet.detect(rawdata.read(100000))
@@ -30,11 +30,11 @@ min1
 max1=autos_df['yearOfRegistration'].max()
 max1
 
-# d. Find and print standard deviation of column kilometer
+# d.Find and print standard deviation of column kilometer
 std1=autos_df['kilometer'].std()
 std1
 
-#e. Draw a bar graph to represent count of different type of column brand
+#e.Draw a bar graph to represent count of different type of column brand
 brand_counts = autos['brand'].value_counts()
 plt.bar(brand_counts.index, brand_counts.values)
 plt.xlabel('Brand')
@@ -42,14 +42,14 @@ plt.ylabel('Count')
 plt.title('Count of Different Brands')
 plt.show()
 
-#f. Find out which VehicleType is sold minimum and maximum
+#f.Find out which VehicleType is sold minimum and maximum
 vehicle_type_counts = autos['vehicleType'].value_counts()
 min_vehicle_type = vehicle_type_counts.idxmin()
 max_vehicle_type = vehicle_type_counts.idxmax()
 print(f"VehicleType sold minimum: {min_vehicle_type}")
 print(f"VehicleType sold maximum: {max_vehicle_type}")
 
-#g. Create a pie chart to represent different types of gearbox count
+#g.Create a pie chart to represent different types of gearbox count
 gearbox_counts = autos['gearbox'].value_counts()
 plt.pie(gearbox_counts.values, labels=gearbox_counts.index, autopct='%1.1f%%')
 plt.title('Gearbox Count')
